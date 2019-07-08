@@ -1,0 +1,51 @@
+body h1{
+    font-size: 50pt;
+}
+body{
+    text-align: center;
+    background: #B24592;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#main img{
+    margin: 20px;
+}
+#block{
+    background-color: lightpink;
+    margin: 10px auto;
+    width: 30%;
+    height: 200px;
+    font-size: 30px;
+    float: none;
+    padding: 30px;
+}
+#block span{
+float: left;
+
+}
+
+
+#block img{
+    display:block;
+    margin: auto;
+}
+
+#btncontainer{
+margin: 0 auto;
+}
+
+input {
+    margin: 10px;
+    border: none;
+    width: 50%;
+    height: 40px;
+    background-color: lightpink;
+    text-align: center;
+    font-size: 30px;
+
+
+}
+::placeholder{
+    color: black;
+    font-size: 30px;
+}
